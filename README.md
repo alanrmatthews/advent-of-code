@@ -11,7 +11,7 @@ are separate from my puzzle solutions.
 
 ## Repository structure
 
-- [AdventOfCode.2020](src/AdventOfCode.2020): my 2020 puzzle implementations,
+- [AdventOfCode.Y2020](src/AdventOfCode.Y2020): my 2020 puzzle implementations,
   organized by day.
 - [AdventOfCode.Commons](src/AdventOfCode.Commons): shared infrastructure
   from the template.
@@ -313,6 +313,18 @@ No tests are showing up!
 
 Make sure your test class is `public`. xUnit v3 runs on Microsoft Testing
 Platform, so keep your IDE up to date (Visual Studio 17.14 or later).
+
+For VS Code, install or enable **C# Dev Kit**, open this repository's
+solution, and run **.NET: Build** followed by **Test: Refresh Tests**.
+Year projects must be included in the solution. The test projects reference
+`Microsoft.NET.Test.Sdk` and `xunit.runner.visualstudio` for IDE discovery;
+command-line tests continue to use Microsoft Testing Platform.
+
+To check discovery independently of your IDE:
+
+```bash
+dotnet test --solution advent-of-code.slnx --list-tests
+```
 
 </details>
 

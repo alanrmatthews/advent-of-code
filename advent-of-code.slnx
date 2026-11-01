@@ -6,6 +6,7 @@
 
   <Folder Name="/src/">
     <Project Path="src/AdventOfCode.Commons/AdventOfCode.Commons.csproj" />
-    <Project Path="src/AdventOfCode.Usage/AdventOfCode.Usage.csproj" />
+    <Project Path="src/AdventOfCode.Y2020/AdventOfCode.Y2020.csproj" />
   </Folder>
+
 </Solution>

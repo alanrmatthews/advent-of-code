@@ -1,6 +1,6 @@
 ﻿using AdventOfCode.Commons;
 
-namespace AdventOfCode.Usage.WithLocalInput;
+namespace AdventOfCode.Y2020.WithLocalInput;
 
 /// <summary>
 /// Example of how to test the <see cref="Solver{TInput, TResult}"/>
@@ -18,7 +18,8 @@ public sealed class LocalInputSolverTest
         .WithTheActualSolutionBeing(211899);
 
     public override Puzzle PartTwo => PuzzleBuilder
-        .FromParsedInput([1, 2, 3])
-        .ExpectsResult(6)
-        .WithTheActualSolutionBeing(15, skipTests: true);
+        .FromInput(["1721", "979", "366", "299", "675", "1456"])
+        .ParsedAs([1721, 979, 366, 299, 675, 1456])
+        .ExpectsResult(241861950)
+        .WithTheActualSolutionBeing(275765682);
 }
