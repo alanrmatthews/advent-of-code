@@ -1,6 +1,6 @@
 ﻿using AdventOfCode.Commons;
 
-namespace AdventOfCode.Y2020.WithLocalInput;
+namespace AdventOfCode.Y2020.Day1;
 
 /// <summary>
 /// Advent of Code 2020, Day 1: Report Repair.

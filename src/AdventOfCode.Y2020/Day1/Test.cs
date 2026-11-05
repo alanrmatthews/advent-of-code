@@ -1,6 +1,6 @@
 ﻿using AdventOfCode.Commons;
 
-namespace AdventOfCode.Y2020.WithLocalInput;
+namespace AdventOfCode.Y2020.Day1;
 
 /// <summary>
 /// Example of how to test the <see cref="Solver{TInput, TResult}"/>
