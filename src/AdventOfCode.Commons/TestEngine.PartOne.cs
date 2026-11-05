@@ -1,4 +1,5 @@
 ﻿using Shouldly;
+
 using Xunit;
 
 namespace AdventOfCode.Commons;
